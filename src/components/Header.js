@@ -1,54 +1,44 @@
 import Icon from "../assets/images/nwslogo.png"
+import { NavLink } from "react-router-dom"
+
 function Header() {
   return (
     <>
       <div>
-        <nav class="bg-blue-700 dark:bg-gray-800 ">
-          <div class="max-w-7xl mx-auto px-8">
-            <div class="flex items-center justify-between h-16">
-              <div class=" flex items-center">
-                <a class="flex-shrink-0" href="/">
-                  <img class="h-10 w-10" src={Icon} alt="Workflow" />
-                </a>
-                <div class="hidden md:block">
-                  <div class="ml-10 flex items-baseline space-x-4">
-                    <a
-                      class="text-gray-100  hover:text-gray-300 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      href="/#"
-                    >
+        <nav className="bg-dodger-blue-2">
+          <div className="max-w-7xl mx-auto px-8 py-6">
+            <div className="flex items-center justify-between h-16">
+              <div className=" flex items-baseline">
+                <NavLink className="flex-shrink-0" to="/">
+                  <img className="h-16 w-16" src={Icon} alt="Workflow" />
+                </NavLink>
+                <div className="hidden md:block">
+                  <div className="ml-10 flex items-baseline space-x-4">
+                    <NavLink className="nav-link" to="/#">
                       Home
-                    </a>
-                    <a
-                      class="text-gray-200 dark:text-white  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      href="/#"
-                    >
+                    </NavLink>
+                    <NavLink className="nav-link" to="/#">
                       Gallery
-                    </a>
-                    <a
-                      class="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      href="/#"
-                    >
+                    </NavLink>
+                    <NavLink className="nav-link" to="/#">
                       Content
-                    </a>
-                    <a
-                      class="text-gray-300  hover:text-gray-800 dark:hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                      href="/#"
-                    >
+                    </NavLink>
+                    <NavLink className="nav-link" to="/#">
                       Contact
-                    </a>
+                    </NavLink>
                   </div>
                 </div>
               </div>
-              <div class="block">
-                <div class="ml-4 flex items-center md:ml-6"></div>
+              <div className="block">
+                <div className="ml-4 flex items-center md:ml-6"></div>
               </div>
-              <div class="-mr-2 flex md:hidden">
-                <button class="text-gray-800 dark:text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none">
+              <div className="-mr-2 flex md:hidden">
+                <button className="text-gray-800 dark:text-white hover:text-gray-300 inline-flex items-center justify-center p-2 rounded-md focus:outline-none">
                   <svg
                     width="20"
                     height="20"
                     fill="currentColor"
-                    class="h-8 w-8"
+                    className="h-8 w-8"
                     viewBox="0 0 1792 1792"
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -58,32 +48,32 @@ function Header() {
               </div>
             </div>
           </div>
-          <div class="md:hidden">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a
-                class="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                href="/#"
+          <div className="md:hidden">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+              <NavLink
+                className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                to="/#"
               >
                 Home
-              </a>
-              <a
-                class="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium"
-                href="/#"
+              </NavLink>
+              <NavLink
+                className="text-gray-800 dark:text-white block px-3 py-2 rounded-md text-base font-medium"
+                to="/#"
               >
                 Gallery
-              </a>
-              <a
-                class="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                href="/#"
+              </NavLink>
+              <NavLink
+                className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                to="/#"
               >
                 Content
-              </a>
-              <a
-                class="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-                href="/#"
+              </NavLink>
+              <NavLink
+                className="text-gray-300 hover:text-gray-800 dark:hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+                to="/#"
               >
                 Contact
-              </a>
+              </NavLink>
             </div>
           </div>
         </nav>

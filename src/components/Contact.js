@@ -1,6 +1,4 @@
 import { NavLink } from "react-router-dom"
-import { GrSend } from "react-icons/gr"
-import { IconContext } from "react-icons"
 
 function Contact() {
   return (
@@ -83,9 +81,7 @@ function Contact() {
                 class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"
               />
             </div>
-            <button class="py-2 px-4 flex justify-center items-center  bg-dodger-blue hover:bg-strong-blue focus:ring-very-dark-blue focus:ring-offset-danger-red text-bubble-gum w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg">
-              Send
-            </button>
+            <button class="btn-dodger-blue">Send</button>
             <p class="text-xs text-gray-500 mt-3">
               Chicharrones blog helvetica normcore iceland tousled brook viral
               artisan.

@@ -6,7 +6,7 @@ import Hero from "../components/Hero"
 function Home() {
   return (
     <>
-      <section>
+      <section className="">
         <Hero />
         <Fearure />
         <CTA />
