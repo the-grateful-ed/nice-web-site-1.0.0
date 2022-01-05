@@ -1,20 +1,15 @@
 function CTA() {
   return (
     <>
-      <div class="bg-dodger-blue-2 dark:bg-gray-800 ">
+      <div class="bg-dodger-blue-0 bg-opacity-25">
         <div class="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
           <h2 class="text-3xl font-extrabold text-gray-800 dark:text-white sm:text-4xl">
-            <span class="block">Want to be millionaire ?</span>
-            <span class="block text-safety-yellow">
-              It&#x27;s today or never.
-            </span>
+            <span class="block">Unique, 1-off code</span>
+            <span class="block text-safety-yellow">that you respect.</span>
           </h2>
           <div class="lg:mt-0 lg:flex-shrink-0">
             <div class=" inline-flex rounded-md shadow">
-              <button
-                type="button"
-                class="py-4 px-6  bg-indigo-600 hover:bg-indigo-700 focus:ring-indigo-500 focus:ring-offset-indigo-200 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
-              >
+              <button type="button" class="btn-smoke">
                 Get started
               </button>
             </div>
