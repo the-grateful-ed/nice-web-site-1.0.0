@@ -1,7 +1,7 @@
 function CTA() {
   return (
     <>
-      <div class="bg-dodger-blue dark:bg-gray-800 ">
+      <div class="bg-dodger-blue-2 dark:bg-gray-800 ">
         <div class="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
           <h2 class="text-3xl font-extrabold text-gray-800 dark:text-white sm:text-4xl">
             <span class="block">Want to be millionaire ?</span>
