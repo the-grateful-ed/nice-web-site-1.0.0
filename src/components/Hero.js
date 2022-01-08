@@ -3,33 +3,27 @@ import HeroImg from "../assets/images/hero.png"
 function Hero() {
   return (
     <>
-      <section className="text-dark-charcoal md:-mt-14 -mt-2 body-font">
-        <div className="container mx-auto flex px-5 py-4 md:flex-row flex-col-reverse items-center">
-          <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">
+      <section className="hero-section">
+        <div className="hero-container">
+          <div className="hero-text-container">
+            <h1>
               Before they sold out
-              <br className="hidden lg:inline-block" />
+              <br className="hero-header-break" />
               readymade gluten
             </h1>
-            <p className="mb-8 leading-relaxed">
+            <p className="hero-text-block">
               Copper mug try-hard pitchfork pour-over freegan heirloom neutra
               air plant cold-pressed tacos poke beard tote bag. Heirloom echo
               park mlkshk tote bag selvage hot chicken authentic tumeric
               truffaut hexagon try-hard chambray.
             </p>
-            <div className="flex justify-center">
-              <button className="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                Button
-              </button>
+            <div className="flex justify-center space-x-4">
+              <button className="btn-smoke">Button</button>
               <button className="btn-dodger-blue w-full">Button</button>
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-            <img
-              className="object-cover object-center rounded"
-              alt="hero"
-              src={HeroImg}
-            />
+          <div className="hero-image-container">
+            <img className="hero-image" alt="hero" src={HeroImg} />
           </div>
         </div>
       </section>
