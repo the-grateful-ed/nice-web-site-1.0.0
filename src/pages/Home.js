@@ -7,8 +7,8 @@ import Pricing from "../components/Pricing"
 function Home() {
   return (
     <>
-      <section className="">
-        <Hero />
+      <section>
+        <Hero className="mx-auto" />
         <Fearure />
         <Pricing />
         <CTA />

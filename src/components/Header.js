@@ -2,6 +2,7 @@ import Icon from "../assets/images/nwslogo.png"
 import { NavLink } from "react-router-dom"
 import React from "react"
 import { MenuIcon } from "@heroicons/react/solid"
+import Divider from "../assets/Divider"
 
 export default function Navbar({ fixed }) {
   const [navbarOpen, setNavbarOpen] = React.useState(false)
@@ -13,7 +14,7 @@ export default function Navbar({ fixed }) {
             <div className="flex items-center justify-between h-16">
               <div className=" flex items-baseline">
                 <NavLink className="flex-shrink-0" to="/">
-                  <img className="h-16 w-16" src={Icon} alt="Workflow" />
+                  <img className="h-16 w-16" src={Icon} alt="Icon" />
                 </NavLink>
                 <div className="hidden md:block">
                   <div className="ml-10 flex items-baseline space-x-4">
@@ -76,6 +77,9 @@ export default function Navbar({ fixed }) {
             </ul>
           </div>
         </nav>
+        <div className="relative z-99">
+          <Divider className="z-100" />
+        </div>
       </div>
     </>
   )

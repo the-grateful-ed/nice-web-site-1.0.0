@@ -1,6 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200;600;700&family=Ubuntu:wght@500;700&display=swap");
+
+.divider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.divider svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 10%;
+}
+
+@layer base {
+  input {
+    @apply block w-full px-4 py-2 text-concrete bg-platinum border border-dodger-blue-4 hover:border-safety-yellow rounded-md focus:border-safety-yellow focus:outline-none focus:ring;
+  }
+  textarea {
+    @apply block w-full h-40 px-4 py-2 text-concrete bg-platinum border border-dodger-blue-4  hover:border-safety-yellow rounded-md focus:border-safety-yellow focus:outline-none focus:ring;
+  }
+  label {
+    @apply block mb-2 text-sm font-medium text-platinum;
+  }
+  h1 {
+    @apply text-xl font-semibold text-dark-charcoal capitalize lg:text-3xl font-Poppins;
+  }
+  * {
+    @apply font-Montserrat;
+  }
+}
 
 @layer components {
   .btn-dodger-blue {
@@ -10,6 +45,18 @@
     @apply py-2 px-4  bg-platinum hover:bg-concrete focus:ring-aluminum-foil focus:ring-offset-aluminum-foil text-outer-space transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg hover:text-platinum border border-jet-black;
   }
   .nav-link {
-    @apply hover:text-bubble-gum text-white font-semibold transition ease-in duration-200 hover:font-bold text-sm px-3 py-2 rounded-md hover:bg-dodger-blue;
+    @apply hover:text-bubble-gum text-white font-semibold transition ease-in duration-200 hover:font-bold text-sm px-3 py-2 rounded-md hover:bg-dodger-blue font-Ubuntu;
+  }
+  .contact-link {
+    @apply flex flex-col items-center px-4 py-3 font-semibold text-bubble-gum transition-colors duration-200 transform rounded-md hover:bg-dodger-blue hover:text-dark-charcoal;
+  }
+  .contact-icon {
+    @apply h-8 w-8 text-bubble-gum hover:text-dark-charcoal;
+  }
+  .divider {
+    @apply fill-current text-blue-700;
+  }
+  .price-heading {
+    @apply inline-flex items-center justify-center px-2 font-semibold tracking-tight uppercase rounded-lg;
   }
 }

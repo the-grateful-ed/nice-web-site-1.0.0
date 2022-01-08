@@ -4,9 +4,15 @@ module.exports = {
   purge: ["./src/**/*.js", "./src/**/*.css"],
   darkMode: false,
   theme: {
+    fontFamily: {
+       Montserrat: ["Montserrat", "sans-serif"],
+       Poppins:["Poppins", "sans-serif"],
+       Ubuntu: ["Ubuntu", "sans-serif"],
+      },
     colors: {
       white: colors.white,
       gray: colors.coal,
+      current: 'currentColor',
       daze: "#6b705c",
       "svelte-prime": "#ff5030",
       "slime-green": "#65FF00",

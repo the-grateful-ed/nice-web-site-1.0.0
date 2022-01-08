@@ -1,20 +1,24 @@
+import DividerSlant from "../assets/DividerSlant"
+import DividerSlant2 from "../assets/DividerSlant2"
+
 function Feature() {
   return (
     <>
-      <section class="bg-platinum py-10">
-        <div class="container px-6 py-10 mx-auto">
-          <h1 class="text-3xl font-semibold text-gray-800 capitalize lg:text-4xl">
+      <DividerSlant />
+      <section className="bg-platinum">
+        <div className="container px-6 py-10 mx-auto">
+          <h1 className="">
             explore our <br /> awesome
-            <span class="text-blue-500">Components</span>
+            <span className="text-blue-500">Components</span>
           </h1>
 
-          <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
-            <div class="p-6 border rounded-xl border-strong-blue bg-white shadow-2xl">
-              <div class="md:flex md:items-start md:-mx-4 bg-white">
-                <span class="inline-block p-2 text-aluminum-foil bg-safety-yellow rounded-xl md:mx-4 ">
+          <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
+            <div className="p-6 border rounded-xl border-strong-blue bg-white shadow-2xl">
+              <div className="md:flex md:items-start md:-mx-4 bg-white">
+                <span className="inline-block p-2 text-aluminum-foil bg-safety-yellow rounded-xl md:mx-4 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -28,12 +32,10 @@ function Feature() {
                   </svg>
                 </span>
 
-                <div class="mt-4 md:mx-4 md:mt-0">
-                  <h1 class="text-2xl font-medium text-dark-charcoal capitalize">
-                    Copy & paste components
-                  </h1>
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <h1 className="text-2xl">Copy & paste components</h1>
 
-                  <p class="mt-3 text-jet-black">
+                  <p className="mt-3 text-jet-black">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Provident ab nulla quod dignissimos vel non corrupti
                     doloribus voluptatum eveniet
@@ -42,12 +44,12 @@ function Feature() {
               </div>
             </div>
 
-            <div class="p-6 border rounded-xl border-blue-700 bg-white shadow-2xl">
-              <div class="md:flex md:items-start md:-mx-4">
-                <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 ">
+            <div className="p-6 border rounded-xl border-blue-700 bg-white shadow-2xl">
+              <div className="md:flex md:items-start md:-mx-4">
+                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -61,12 +63,12 @@ function Feature() {
                   </svg>
                 </span>
 
-                <div class="mt-4 md:mx-4 md:mt-0">
-                  <h1 class="text-2xl font-medium text-dark-charcoal capitalize ">
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <h1 className="text-2xl font-medium text-dark-charcoal capitalize ">
                     Zero Configrations
                   </h1>
 
-                  <p class="mt-3 text-jet-black">
+                  <p className="mt-3 text-jet-black">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Provident ab nulla quod dignissimos vel non corrupti
                     doloribus voluptatum eveniet
@@ -75,12 +77,12 @@ function Feature() {
               </div>
             </div>
 
-            <div class="p-6 border rounded-xl border-blue-700 bg-white shadow-2xl">
-              <div class="md:flex md:items-start md:-mx-4 ">
-                <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4">
+            <div className="p-6 border rounded-xl border-blue-700 bg-white shadow-2xl">
+              <div className="md:flex md:items-start md:-mx-4 ">
+                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -100,12 +102,12 @@ function Feature() {
                   </svg>
                 </span>
 
-                <div class="mt-4 md:mx-4 md:mt-0">
-                  <h1 class="text-2xl font-medium text-dark-charcoal capitalize dark:text-white">
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <h1 className="text-2xl font-medium text-dark-charcoal capitalize dark:text-white">
                     elegant Dark Mode
                   </h1>
 
-                  <p class="mt-3 text-jet-black">
+                  <p className="mt-3 text-jet-black">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Provident ab nulla quod dignissimos vel non corrupti
                     doloribus voluptatum eveniet
@@ -114,12 +116,12 @@ function Feature() {
               </div>
             </div>
 
-            <div class="p-6 border rounded-xl border-blue-700 bg-white shadow-2xl">
-              <div class="md:flex md:items-start md:-mx-4 ">
-                <span class="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 ">
+            <div className="p-6 border rounded-xl border-blue-700 bg-white shadow-2xl">
+              <div className="md:flex md:items-start md:-mx-4 ">
+                <span className="inline-block p-2 text-blue-500 bg-blue-100 rounded-xl md:mx-4 ">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -133,12 +135,12 @@ function Feature() {
                   </svg>
                 </span>
 
-                <div class="mt-4 md:mx-4 md:mt-0">
-                  <h1 class="text-2xl font-medium text-dark-charcoal capitalize">
+                <div className="mt-4 md:mx-4 md:mt-0">
+                  <h1 className="text-2xl font-medium text-dark-charcoal capitalize">
                     Simple & clean designs
                   </h1>
 
-                  <p class="mt-3 text-jet-black">
+                  <p className="mt-3 text-jet-black">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Provident ab nulla quod dignissimos vel non corrupti
                     doloribus voluptatum eveniet
@@ -149,6 +151,7 @@ function Feature() {
           </div>
         </div>
       </section>
+      <DividerSlant2 />
     </>
   )
 }
