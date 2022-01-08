@@ -2,12 +2,11 @@ import { NavLink } from "react-router-dom"
 import { LocationMarkerIcon } from "@heroicons/react/solid"
 import { DeviceMobileIcon } from "@heroicons/react/solid"
 import { MailOpenIcon } from "@heroicons/react/solid"
-import DividerSkyline from "./DividerSkyline"
+import DividerSkyline from "../assets/DividerSkyline"
 
 function Contact() {
   return (
     <>
-
       <div className="bg-blue-700 w-full">
         <section class="w-full max-w-2xl px-6 pb-4 pt-16 mx-auto bg-blue-700 rounded-md shadow-md">
           <h2 class="text-3xl font-semibold text-center text-bubble-gum">
@@ -52,7 +51,10 @@ function Contact() {
           </div>
         </section>
       </div>
-     <div className="bg-blue-700"> <DividerSkyline /></div>
+      <div className="bg-blue-700">
+        {" "}
+        <DividerSkyline />
+      </div>
     </>
   )
 }

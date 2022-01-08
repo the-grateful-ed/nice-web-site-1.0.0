@@ -1,18 +1,17 @@
 const colors = require("tailwindcss/colors")
 
 module.exports = {
-  purge: ["./src/**/*.js", "./src/**/*.css"],
-  darkMode: false,
+  content: ["./src/**/*.js", "./src/**/*.css"],
   theme: {
     fontFamily: {
-       Montserrat: ["Montserrat", "sans-serif"],
-       Poppins:["Poppins", "sans-serif"],
-       Ubuntu: ["Ubuntu", "sans-serif"],
-      },
+      Montserrat: ["Montserrat", "sans-serif"],
+      Poppins: ["Poppins", "sans-serif"],
+      Ubuntu: ["Ubuntu", "sans-serif"],
+    },
     colors: {
       white: colors.white,
       gray: colors.coal,
-      current: 'currentColor',
+      current: "currentColor",
       daze: "#6b705c",
       "svelte-prime": "#ff5030",
       "slime-green": "#65FF00",

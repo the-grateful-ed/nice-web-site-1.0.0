@@ -9,7 +9,7 @@ function Feature() {
         <div className="container px-6 py-10 mx-auto">
           <h1 className="">
             explore our <br /> awesome
-            <span className="text-blue-500">Components</span>
+            <span className="text-blue-500"> Components</span>
           </h1>
 
           <div className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 xl:gap-12 md:grid-cols-2">
@@ -33,12 +33,13 @@ function Feature() {
                 </span>
 
                 <div className="mt-4 md:mx-4 md:mt-0">
-                  <h1 className="text-2xl">Copy & paste components</h1>
+                  <h1 className="text-2xl">Build Together with Us</h1>
 
                   <p className="mt-3 text-jet-black">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident ab nulla quod dignissimos vel non corrupti
-                    doloribus voluptatum eveniet
+                    The beinfit of working with us is that you get to be there
+                    every step of the way. When we say we offer custom work, we
+                    mean it. Nice Web Solutions offers basic style but we can
+                    deliver
                   </p>
                 </div>
               </div>
