@@ -1,7 +1,12 @@
-function Feature() {
+import { FiFigma } from "react-icons/fi"
+import { SiSvelte } from "react-icons/si"
+import { SiJamstack } from "react-icons/si"
+import { BsGithub } from "react-icons/bs"
+
+function Steps() {
   return (
     <>
-      <section className="text-gray-600 body-font">
+      <section className="text-jet-black">
         <div className="container px-5 py-24 mx-auto flex flex-wrap">
           <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
             <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
@@ -12,25 +17,18 @@ function Feature() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-dodger-blue text-platinum rounded-full inline-flex items-center justify-center">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  className="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
+                <FiFigma />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Shooting Stars
+                  Planning
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Every good project starts with good planning. We create vector
+                  wireframe mockups to visually represent what the final product
+                  will look like. We can start to prototype some basic
+                  functionallity to align with our clients goals and
+                  interactivity required.
                 </p>
               </div>
             </div>
@@ -44,25 +42,16 @@ function Feature() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-dodger-blue text-platinum rounded-full inline-flex items-center justify-center">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  className="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
+                <SiSvelte />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The Catalyzer
+                  Code
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Code is like fine are to us. We use the latest frameworks or
+                  complation tools available to ensure your site is compatable,
+                  flexable, scalable, responsive and feels the way you want.
                 </p>
               </div>
             </div>
@@ -76,26 +65,18 @@ function Feature() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-dodger-blue text-platinum rounded-full inline-flex items-center justify-center">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  className="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="12" cy="5" r="3"></circle>
-                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                </svg>
+                <SiJamstack />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  The 400 Blows
+                  Go Serverless
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  Using JamStack Architecture, we deliver a dynamic web that
+                  fits your needs but also fits your budget. JamStack, aka
+                  Serverless, is a new technology that lets you pay for the
+                  things assets you need and avoid the things you don't. This
+                  way you get a fine tuned machine that is very cost effective.
                 </p>
               </div>
             </div>
@@ -109,26 +90,19 @@ function Feature() {
             </div>
             <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
               <div className="flex-shrink-0 w-24 h-24 bg-dodger-blue text-platinum rounded-full inline-flex items-center justify-center">
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  className="w-12 h-12"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+                <BsGithub />
               </div>
               <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
                 <h2 className="font-medium title-font text-gray-900 mb-1 text-xl">
-                  Neptune
+                  Perfection
                 </h2>
                 <p className="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
+                  You can trust that you will end up with a work of art that we
+                  put our heart into. Once we deploy not only do we offer
+                  ongoing support but you have a custom made site that you are
+                  able to update even without any tech skills needed. Hosting
+                  and domain fees are very minimal and we offer advertising
+                  packages for ongoing promotion.
                 </p>
               </div>
             </div>
@@ -138,4 +112,4 @@ function Feature() {
     </>
   )
 }
-export default Feature
+export default Steps

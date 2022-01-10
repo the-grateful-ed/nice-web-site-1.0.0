@@ -39,7 +39,7 @@
     @apply font-Montserrat;
   }
   footer {
-    @apply flex-1 flex flex-col items-center justify-center md:items-end md:border-r border-aluminum-foil md:pr-5;
+    @apply flex-1 flex flex-col items-center justify-center md:items-end md:border-r border-aluminum-foil md:pr-5 px-3 py-8 bg-jet-black text-bubble-gum;
   }
 }
 
@@ -66,16 +66,16 @@
     @apply inline-flex items-center justify-center px-2 font-semibold tracking-tight uppercase rounded-lg;
   }
   .hero-text-container {
-    @apply lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center;
+    @apply lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center px-1;
   }
   .hero-image-container {
     @apply lg:max-w-lg lg:w-full md:w-1/2 w-5/6;
   }
   .hero-image {
-    @apply object-cover object-center rounded;
+    @apply object-fill md:object-cover object-center rounded;
   }
   .hero-container {
-    @apply container mx-auto flex px-5 py-4 md:flex-row flex-col-reverse items-center;
+    @apply container mx-auto flex px-1 py-1 md:flex-row flex-col-reverse items-center;
   }
   .hero-section {
     @apply text-dark-charcoal md:-mt-14 -mt-2;
@@ -91,5 +91,26 @@
   }
   .feature-icon-bg {
     @apply inline-block p-2 text-white bg-dodger-blue-2 rounded-xl md:mx-4;
+  }
+  .menu-button {
+    @apply text-bubble-gum cursor-pointer text-xl leading-none px-3 py-1 border border-solid rounded  block md:hidden outline-none focus:outline-none;
+  }
+  .contact-container {
+    @apply grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3;
+  }
+  .contact-sub-heading {
+    @apply mt-3 text-center text-platinum;
+  }
+  .price-box {
+    @apply flex flex-col w-full max-w-sm p-8 space-y-8 text-center bg-white border-2  shadow-2xl shadow-ecto-plasm-2 rounded-lg lg:mx-4;
+  }
+  .price-title {
+    @apply pt-2 text-4xl font-bold text-dark-charcoal uppercase;
+  }
+  .cta-graident {
+    @apply bg-gradient-to-r from-dodger-blue-0  to-dodger-blue-2;
+  }
+  .cta-container {
+    @apply lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-2 lg:py-16 lg:px-8 z-20;
   }
 }

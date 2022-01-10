@@ -1,10 +1,11 @@
 import { NavLink } from "react-router-dom"
 import { BsGithub } from "react-icons/bs"
+import { GrTwitter } from "react-icons/gr"
 
 function Footer() {
   return (
     <>
-      <footer className="px-3 py-8 bg-jet-black text-2 text-bubble-gum  transition-colors duration-200">
+      <footer>
         <div className="flex flex-col">
           <div className="md:hidden mt-7 mx-auto w-11 h-px rounded-full"></div>
           <div className="mt-4 md:mt-0 flex flex-col md:flex-row">
@@ -20,8 +21,9 @@ function Footer() {
               <NavLink to="#">Customization</NavLink>
             </nav>
             <div className="md:hidden mt-4 mx-auto w-11 h-px rounded-full"></div>
-            <div className="mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-aluminum-foil">
+            <div className="mt-4 md:mt-0 flex-1 flex items-center justify-center md:border-r border-aluminum-foil space-x-4">
               <BsGithub />
+              <GrTwitter />
             </div>
             <div className="md:hidden mt-4 mx-auto w-11 h-px rounded-full "></div>
             <div className="mt-7 md:mt-0 flex-1 flex flex-col items-center justify-center md:items-start md:pl-5">

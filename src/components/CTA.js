@@ -1,18 +1,21 @@
 function CTA() {
   return (
     <>
-      <div className="bg-gradient-to-r from-dodger-blue-0  to-dodger-blue-2">
-        <div className="lg:flex lg:items-center lg:justify-between w-full mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8 z-20">
-          <h2>
+      <div className="cta-graident">
+        <div className="cta-container">
+          <h2 className="text-center">
             <span className="block">Unique, 1-off code</span>
-            <span className="block text-safety-concrete">
+            <span className="block text-concrete">
               that you can be proud of.
+            </span>
+            <span className="block text-safety-cone-orange">
+              Limited time discount. Don't wait...
             </span>
           </h2>
           <div className="lg:mt-0 lg:flex-shrink-0">
-            <div className=" inline-flex rounded-md shadow">
+            <div className="flex justify-center  rounded-md pt-6">
               <button type="button" className="btn-smoke">
-                Get started
+                Check it out
               </button>
             </div>
           </div>

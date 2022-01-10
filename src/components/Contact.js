@@ -8,14 +8,14 @@ function Contact() {
   return (
     <>
       <div className="bg-blue-700 w-full">
-        <section className="w-full max-w-2xl px-6 pb-4 pt-16 mx-auto bg-blue-700 rounded-md shadow-md">
-          <h2 className="text-3xl font-semibold text-center text-bubble-gum">
+        <section className="w-full max-w-2xl px-6 pb-4 pt-16 mx-auto rounded-md shadow-md">
+          <h2 className="text-bubble-gum text-center">
             Get in touch
           </h2>
-          <p className="mt-3 text-center text-platinum">
+          <p className="contact-sub-heading">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </p>
-          <div className="grid grid-cols-1 gap-6 mt-6 sm:grid-cols-2 md:grid-cols-3">
+          <div className="contact-container">
             <NavLink to="#" className="contact-link">
               <LocationMarkerIcon className="contact-icon" />
               <span className="mt-2">PO Box 327</span>
@@ -41,7 +41,7 @@ function Contact() {
                 <input type="email" />
               </div>
             </div>
-            <div className="w-full mt-4">
+            <div className="w-full mt-4 mx-4 md:mx-0">
               <label className="">Message</label>
               <textarea />
             </div>
@@ -52,7 +52,6 @@ function Contact() {
         </section>
       </div>
       <div className="bg-blue-700">
-        {" "}
         <DividerSkyline />
       </div>
     </>

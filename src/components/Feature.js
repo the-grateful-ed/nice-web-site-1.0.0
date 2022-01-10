@@ -24,10 +24,7 @@ function Feature() {
                 <div className="mt-4 md:mx-4 md:mt-0">
                   <h1>Build Together with Us</h1>
                   <p className="mt-3 text-jet-black">
-                    The beinfit of working with us is that you get to be there
-                    every step of the way. When we say we offer custom work, we
-                    mean it. Nice Web Solutions offers basic style but we can
-                    deliver
+                    We are really with you the entire way. We can offer the personal level of care and attention that you can't get elsewhere. From wireframe to final draft, we make sure you are happy with your web project.
                   </p>
                 </div>
               </div>
@@ -38,11 +35,9 @@ function Feature() {
                   <GoSettings />
                 </span>
                 <div className="mt-4 md:mx-4 md:mt-0">
-                  <h1>Zero Configrations</h1>
+                  <h1>The Right Tools for the Job</h1>
                   <p className="mt-3 text-jet-black">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident ab nulla quod dignissimos vel non corrupti
-                    doloribus voluptatum eveniet
+                    We not only stay up to date with the newest tools for the job but are very skilled in all the tools. We make sure that your page is compatable on all divices, quick to load and easy for the search engines to index.
                   </p>
                 </div>
               </div>
@@ -54,12 +49,10 @@ function Feature() {
                 </span>
 
                 <div className="mt-4 md:mx-4 md:mt-0">
-                  <h1>elegant Dark Mode</h1>
+                  <h1>Cost Effective Solutions</h1>
 
                   <p className="mt-3 text-jet-black">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Provident ab nulla quod dignissimos vel non corrupti
-                    doloribus voluptatum eveniet
+                    Even after deployment we make sure your dollars are well spent. Using JamStack framework, your hosting is provided most of the time at no cost. You can maintain your website for dollars a year.
                   </p>
                 </div>
               </div>

@@ -24,8 +24,8 @@ export default function Navbar({ fixed }) {
                     <NavLink className="nav-link" to="/#">
                       Gallery
                     </NavLink>
-                    <NavLink className="nav-link" to="/#">
-                      Content
+                    <NavLink className="nav-link" to="/build">
+                      Build
                     </NavLink>
                     <NavLink className="nav-link" to="/#">
                       Contact
@@ -38,7 +38,7 @@ export default function Navbar({ fixed }) {
               </div>
               <div>
                 <button
-                  className="text-bubble-gum cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block md:hidden outline-none focus:outline-none"
+                  className="menu-button"
                   type="button"
                   onClick={() => setNavbarOpen(!navbarOpen)}
                 >
@@ -53,14 +53,14 @@ export default function Navbar({ fixed }) {
             }
             id="example-navbar-danger"
           >
-            <ul className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col lg:flex-row list-none lg:ml-auto">
+            <ul className="w-full py-2 text-center text-2xl">
               <li>
                 <NavLink className="nav-link w-full" to="/#">
                   Home
                 </NavLink>
               </li>
               <li>
-                <NavLink className="nav-link w-full" to="/#">
+                <NavLink className="nav-link " to="/#">
                   Home
                 </NavLink>
               </li>
